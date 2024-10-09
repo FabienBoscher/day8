@@ -1,0 +1,21 @@
+body {
+    background-color: #dfa967;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
+
+.splide__slide.is-active img {
+    z-index: 2;
+    transform: scale(1.2);
+}
+
+.splide__slide:not(.is-active) img {
+    z-index: 1;
+    transform: scale(0.9);
+}

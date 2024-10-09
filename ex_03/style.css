@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 20px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    margin: 20px auto;
+}
